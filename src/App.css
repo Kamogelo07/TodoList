@@ -141,10 +141,6 @@ select {
 
 /*Added Responsive Code*/
 @media only screen and (max-width: 600px) {
-  body {
-    background-image: linear-gradient(120deg, #480e7e 0%, #812309 100%);
-
-  }
 
   header {
     font-size: 1rem;
@@ -159,12 +155,13 @@ select {
   } 
 
   .todo-input{
-    width: 250px;
+    width: 100px;
+    flex-wrap: wrap-reverse;
   }
 
   .filter-todo {
     padding: 1rem;
-    width: 170px;
+    width: 90px;
   }
   
 }
