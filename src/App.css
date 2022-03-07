@@ -137,3 +137,34 @@ select {
   transform: scale(1.5);
 }
 */
+
+
+/*Added Responsive Code*/
+@media only screen and (max-width: 600px) {
+  body {
+    background-image: linear-gradient(120deg, #480e7e 0%, #812309 100%);
+
+  }
+
+  header {
+    font-size: 1rem;
+  }
+
+  header,
+  form {
+  min-height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  } 
+
+  .todo-input{
+    width: 250px;
+  }
+
+  .filter-todo {
+    padding: 1rem;
+    width: 170px;
+  }
+  
+}
